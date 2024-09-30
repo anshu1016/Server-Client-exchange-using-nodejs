@@ -52,5 +52,5 @@ client.on("error", (err) => {
 });
 
 client.on("end", () => {
-  console.log("Disconnected from the server.");
+  console.log("Disconnected from the server. Rerun the server");
 });
