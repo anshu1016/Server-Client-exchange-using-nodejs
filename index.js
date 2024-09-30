@@ -63,6 +63,6 @@ client.on("error", (err) => {
 });
 
 client.on("end", () => {
-  console.log("Disconnected from the server.");
+  console.log("Disconnected from the server. Reconnect to server to fetch again");
   client.end();
 });
